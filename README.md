@@ -257,4 +257,4 @@ Traditional search finds *matching text*; knowledge graphs let us reason about *
 
 ---
 
-*Built with ❤️ by DhruvJ2k4 and the open-source community.*
+*Built with ❤️ by Dhruv and the open-source community.*
