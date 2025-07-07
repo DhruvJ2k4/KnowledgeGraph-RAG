@@ -1,0 +1,1285 @@
+{
+  "d00p0001c01": [
+    "vision-language model",
+    "clip"
+  ],
+  "d00p0001c02": [
+    "text-guided attention",
+    "tga-zsr"
+  ],
+  "d00p0001c03": [
+    "attention refinement module",
+    "attention-based model constraint module"
+  ],
+  "d00p0001c04": [
+    "pre-trained vision-language model",
+    "vlms"
+  ],
+  "d00p0001c05": [
+    "adversarial attacks"
+  ],
+  "d00p0002c01": [
+    "adversarial attacks",
+    "adversarial training",
+    "deep learning models",
+    "vulnerability"
+  ],
+  "d00p0002c02": [
+    "adversarial training",
+    "computational overhead",
+    "overfitting",
+    "large-scale models",
+    "zero-shot adversarial robustness",
+    "downstream tasks",
+    "real-world settings"
+  ],
+  "d00p0002c03": [
+    "robustness",
+    "visual and textual modalities",
+    "multimodal ai systems"
+  ],
+  "d00p0002c04": [
+    "adversarial attacks",
+    "adversarial robustness",
+    "generalizability",
+    "interpretability",
+    "clip"
+  ],
+  "d00p0002c05": [
+    "text-guided attention",
+    "zero-shot robustness",
+    "vision-language models",
+    "clean samples"
+  ],
+  "d00p0002c06": [
+    "transformer",
+    "bert",
+    "vlms",
+    "clip",
+    "align",
+    "blip",
+    "visual-bert",
+    "albeef",
+    "image-text pairs"
+  ],
+  "d00p0002c07": [
+    "pmg-aft",
+    "pre-trained model guided adversarial fine-tuning technique",
+    "generalizability",
+    "adversarial robustness",
+    "clip’s zero-shot robustness"
+  ],
+  "d00p0002c08": [
+    "text-guided attention shift phenomenon",
+    "adversarial attacks",
+    "model outputs",
+    "clip model",
+    "clean examples",
+    "tga-zsr"
+  ],
+  "d00p0002c09": [
+    "zero-shot robustness",
+    "vision-language models",
+    "state-of-the-art methods",
+    "benchmark"
+  ],
+  "d00p0002c10": [
+    "pre-trained vision-language models"
+  ],
+  "d00p0002c11": [
+    "computer vision",
+    "image-label pairs",
+    "object categories",
+    "semantic connections",
+    "natural language processing",
+    "transformer",
+    "bert"
+  ],
+  "d00p0003c01": [
+    "zero-shot performance",
+    "adversarial examples",
+    "deep neural networks",
+    "adversarial robustness",
+    "data augmentation",
+    "adversarial training",
+    "progressive self-distillation",
+    "randomization strategy",
+    "adversarial purification"
+  ],
+  "d00p0003c02": [
+    "adversarial robustness",
+    "increased complexity",
+    "limited generalizability",
+    "adversarial training",
+    "clip"
+  ],
+  "d00p0003c03": [
+    "zero-shot adversarial robustness",
+    "clip",
+    "tecoa",
+    "pmg-aft",
+    "fare"
+  ],
+  "d00p0003c04": [
+    "attention maps",
+    "adversarial examples",
+    "text-guided attention"
+  ],
+  "d00p0003c05": [
+    "cross-entropy loss",
+    "adversarial attacks"
+  ],
+  "d00p0003c06": [
+    "projected gradient descent",
+    "adversarial attacks",
+    "perturbation budget"
+  ],
+  "d00p0004c01": [
+    "adversarial image attention",
+    "original image attention"
+  ],
+  "d00p0004c02": [
+    "adversarial examples",
+    "loss function"
+  ],
+  "d00p0004c03": [
+    "adversarial examples",
+    "robustness",
+    "adversarial fine-tuning",
+    "total loss function"
+  ],
+  "d00p0004c04": [
+    "multimodal ai systems",
+    "text-guided attention",
+    "attention maps"
+  ],
+  "d00p0005c01": [
+    "text-guided attention",
+    "clip model",
+    "adversarial robustness",
+    "attention refinement module",
+    "attention-based model constraint module"
+  ],
+  "d00p0005c02": [
+    "text-guided attention"
+  ],
+  "d00p0005c03": [
+    "adversarial attacks",
+    "clip model",
+    "zero-shot robustness",
+    "text-guided attention",
+    "original image attention",
+    "adversarial examples"
+  ],
+  "d00p0005c04": [
+    "adversarial attacks",
+    "text-guided attention",
+    "attention shifts",
+    "mis-classification"
+  ],
+  "d00p0006c01": [
+    "text-guided attention",
+    "vision-language model",
+    "adversarial robustness",
+    "attention refinement module",
+    "attention maps"
+  ],
+  "d00p0006c02": [
+    "interpretability",
+    "text-guided attention",
+    "visual and textual modalities"
+  ],
+  "d00p0006c03": [
+    "attention refinement module",
+    "adversarial samples",
+    "clean samples"
+  ],
+  "d00p0006c04": [
+    "attention-based model constraint module",
+    "clean data",
+    "pre-trained vlms",
+    "generalizability"
+  ],
+  "d00p0006c05": [
+    "tiny-imagenet dataset",
+    "attention-based model constraint module",
+    "adversarial fine-tuning",
+    "clean samples",
+    "original image attention"
+  ],
+  "d00p0007c01": [
+    "clip",
+    "pgd",
+    "tiny-imagenet",
+    "cifar-10",
+    "cifar-100",
+    "stl-10",
+    "sun397",
+    "food101",
+    "oxfordpets",
+    "flowers102",
+    "dtdeurosat",
+    "fgvc-aircraft",
+    "imagenet",
+    "caltech-101",
+    "caltech-256",
+    "stanfordcars",
+    "pcamaverage",
+    "accuracy",
+    "standard deviation"
+  ],
+  "d00p0007c02": [
+    "clip",
+    "ft-clean",
+    "ft-adv.",
+    "tecoa",
+    "fare",
+    "pmg-aft",
+    "tga-zsr",
+    "accuracy",
+    "standard deviation"
+  ],
+  "d00p0007c03": [
+    "tga-zsr",
+    "standard deviation"
+  ],
+  "d00p0007c04": [
+    "clip",
+    "ft-clean",
+    "ft-adv.",
+    "tecoa",
+    "fare",
+    "pmg-aft",
+    "tga-zsr",
+    "accuracy",
+    "standard deviation"
+  ],
+  "d00p0007c05": [
+    "tga-zsr",
+    "standard deviation"
+  ],
+  "d00p0007c06": [
+    "dataset",
+    "pcam",
+    "eurosat",
+    "dtd",
+    "imagenet_subset",
+    "imagenet-a",
+    "imagenet-o",
+    "imagenet-r"
+  ],
+  "d00p0007c07": [
+    "sgd optimizer",
+    "l∞ norm pgd-2",
+    "batch size"
+  ],
+  "d00p0007c09": [
+    "adversarial fine-tuning",
+    "clip model",
+    "contrastive loss"
+  ],
+  "d00p0008c01": [
+    "autoattack"
+  ],
+  "d00p0008c02": [
+    "tiny-imagenet",
+    "cifar-10",
+    "cifar-100",
+    "stl-10",
+    "sun397",
+    "food101",
+    "oxfordpets",
+    "flowers102",
+    "dtdeurosat",
+    "fgvc-aircraft",
+    "imagenet",
+    "caltech-101",
+    "caltech-256",
+    "stanfordcars",
+    "pcamaverage"
+  ],
+  "d00p0008c03": [
+    "tiny-imagenet",
+    "cifar-10",
+    "cifar-100",
+    "stl-10",
+    "sun397",
+    "food101",
+    "oxfordpets",
+    "flowers102",
+    "dtdeurosat",
+    "fgvc-aircraft",
+    "imagenet",
+    "caltech-101",
+    "caltech-256",
+    "stanfordcars",
+    "pcam",
+    "clip",
+    "pmg-aft",
+    "tga-zsr"
+  ],
+  "d00p0008c04": [
+    "clip",
+    "tga-zsr",
+    "pmg-aft",
+    "fare"
+  ],
+  "d00p0008c05": [
+    "fare"
+  ],
+  "d00p0008c06": [
+    "autoattack",
+    "cw attack",
+    "clip",
+    "tga-zsr",
+    "pmg-aft"
+  ],
+  "d00p0008c07": [
+    "grad-cam"
+  ],
+  "d00p0009c01": [
+    "state-of-the-art method",
+    "pmg-aft",
+    "pre-trained vision-language model",
+    "tiny-imagenet",
+    "cifar-10",
+    "cifar-100",
+    "stl-10",
+    "sun397",
+    "food101",
+    "oxfordpets",
+    "flowers102",
+    "dtdeurosat",
+    "fgvc-aircraft",
+    "imagenet",
+    "caltech-101",
+    "caltech-256",
+    "stanfordcars",
+    "pcamaverage",
+    "tga-zsr"
+  ],
+  "d00p0009c02": [
+    "cleanpmg-aft",
+    "vision-based",
+    "tga-zsr"
+  ],
+  "d00p0009c05": [
+    "pgd",
+    "ε",
+    "adversarial training",
+    "clip",
+    "ft-clean",
+    "ft-adv.",
+    "tecoa",
+    "pmg-aft",
+    "fare",
+    "attention refinement module",
+    "attention-based model constraint module"
+  ],
+  "d00p0009c06": [
+    "adversarial training",
+    "overfitting",
+    "underfitting",
+    "model performance",
+    "balanced accuracy",
+    "computational overhead",
+    "time efficiency"
+  ],
+  "d00p0010c01": [
+    "ablation study",
+    "pgd",
+    "adversarial fine-tuning",
+    "adversarial examples",
+    "memory usage",
+    "training time",
+    "test time",
+    "comparison"
+  ],
+  "d00p0010c02": [
+    "pmg-aft",
+    "computational requirements",
+    "text-guided attention map"
+  ],
+  "d00p0010c03": [
+    "conclusion",
+    "limitations"
+  ],
+  "d00p0010c04": [
+    "adversarial attacks",
+    "adversarial training",
+    "zero-shot adversarial robustness",
+    "autoadversarial robustness",
+    "computational overhead",
+    "overfitting",
+    "decreased performance"
+  ],
+  "d01p0001c01": [
+    "tensor2tensor",
+    "transformer",
+    "nmt",
+    "deepl learning models",
+    "memory usage",
+    "training stability",
+    "training time",
+    "checkpoint averaging"
+  ],
+  "d01p0001c02": [
+    "recommendations"
+  ],
+  "d01p0001c03": [
+    "training data",
+    "noise in the data",
+    "hyper-parameters"
+  ],
+  "d01p0002c01": [
+    "transformer",
+    "t2t",
+    "nmt model",
+    "t2t toolkit",
+    "large-dataset newstranslation"
+  ],
+  "d01p0002c02": [
+    "machine translation",
+    "transformer"
+  ],
+  "d01p0002c03": [
+    "dataset",
+    "nmt model"
+  ],
+  "d01p0003c01": [
+    "bleu score"
+  ],
+  "d01p0003c02": [
+    "non-deterministic training",
+    "overfitting",
+    "learning curves"
+  ],
+  "d01p0003c04": [
+    "hyper-parameters",
+    "random initialization"
+  ],
+  "d01p0003c03": [
+    "performance",
+    "complex model",
+    "epochs",
+    "score",
+    "training time",
+    "wall-clock time",
+    "early stopping",
+    "delta",
+    "randomization strategy",
+    "hyper-parameters",
+    "random seed"
+  ],
+  "d01p0004c01": [
+    "learning curves",
+    "case-insensitive bleu score",
+    "wall-clock time",
+    "geforce gtx 1080 ti gpus",
+    "nvidia driver 375.66"
+  ],
+  "d01p0004c02": [
+    "replicated experiments"
+  ],
+  "d01p0004c03": [
+    "batch size",
+    "sentence pairs",
+    "tokens",
+    "subwords",
+    "short sentences",
+    "long sentences"
+  ],
+  "d01p0004c04": [
+    "effective batch size",
+    "training examples",
+    "batch_size",
+    "gpu"
+  ],
+  "d01p0005c01": [
+    "effective batch size",
+    "subwords",
+    "training data",
+    "training steps",
+    "batch_size"
+  ],
+  "d01p0005c02": [
+    "effective batch size",
+    "subwords",
+    "computation speed",
+    "training throughput"
+  ],
+  "d01p0005c03": [
+    "training throughput"
+  ],
+  "d01p0005c04": [
+    "bleu variance",
+    "learning curves"
+  ],
+  "d01p0005c05": [
+    "training data resources",
+    "czeng",
+    "en words",
+    "cs words",
+    "europarl-v7",
+    "news-commentary-v11",
+    "commoncrawl"
+  ],
+  "d01p0006c01": [
+    "sentences",
+    "en words",
+    "cs words"
+  ],
+  "d01p0006c02": [
+    "averaging",
+    "section",
+    "4.10"
+  ],
+  "d01p0006c03": [
+    "best model",
+    "development set",
+    "wmt newstest2017",
+    "state-of-the-art systems"
+  ],
+  "d01p0007c01": [
+    "t2t",
+    "training data preprocessing",
+    "tokenization",
+    "truecasing",
+    "subword units",
+    "sennrichetal.",
+    "2016",
+    "word-piece algorithm",
+    "wu et al.",
+    "2016"
+  ],
+  "d01p0007c02": [
+    "t2t",
+    "subword vocabulary"
+  ],
+  "d01p0007c03": [
+    "tips on training data preprocessing",
+    "subword vocabulary",
+    "training data sample size",
+    "batch size",
+    "max_length",
+    "training sentences",
+    "t2t-datagen",
+    "tfrecord training files",
+    "processing",
+    "section4.5",
+    "excluding long sentences",
+    "parameter",
+    "one.superior",
+    "two.superior",
+    "three.superior",
+    "bpe subword units",
+    "sennrichetal. (2016)",
+    "technical report"
+  ],
+  "d01p0007c04": [
+    "t2t",
+    "nmt",
+    "word segmentation"
+  ],
+  "d01p0008c01": [
+    "t2t",
+    "transformer_big_single_gpu",
+    "transformer_base_single_gpu"
+  ],
+  "d01p0008c02": [
+    "batch_size",
+    "train_steps",
+    "save_checkpoints_secs",
+    "schedule"
+  ],
+  "d01p0008c03": [
+    "big",
+    "base",
+    "oom"
+  ],
+  "d01p0008c04": [
+    "computation speed",
+    "training throughput",
+    "batch size",
+    "model size"
+  ],
+  "d01p0009c01": [
+    "computation speed",
+    "training throughput",
+    "batch_size",
+    "base",
+    "big"
+  ],
+  "d01p0009c02": [
+    "base",
+    "big",
+    "throughput",
+    "computation speed"
+  ],
+  "d01p0009c03": [
+    "gpu",
+    "steps/hour",
+    "subwords/hour"
+  ],
+  "d01p0009c04": [
+    "table 2",
+    "computation speed",
+    "training throughput",
+    "gpu"
+  ],
+  "d01p0009c05": [
+    "training throughput",
+    "gpu",
+    "subwords/hour"
+  ],
+  "d01p0010c01": [
+    "24",
+    "25",
+    "26",
+    "27",
+    "0",
+    "50",
+    "100",
+    "150",
+    "200",
+    "250",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "bleu",
+    "training time",
+    "hours",
+    "days",
+    "58m",
+    "training sentences"
+  ],
+  "d01p0010c02": [
+    "czeng 1.0",
+    "czeng 1.7",
+    "english/czech words",
+    "figure 1",
+    "bleu learning curves",
+    "czeng",
+    "training data",
+    "8 gpus",
+    "big",
+    "batch_size=1500"
+  ],
+  "d01p0010c03": [
+    "czeng 1.0",
+    "epoch",
+    "smaller dataset",
+    "convergence"
+  ],
+  "d01p0011c01": [
+    "dataset",
+    "czeng 1.0",
+    "czeng 1.7",
+    "convergence",
+    "training time",
+    "large training data",
+    "bleu improvement"
+  ],
+  "d01p0011c02": [
+    "model size",
+    "gpu",
+    "batch size",
+    "transformer_big_single_gpu",
+    "transformer_base_single_gpu",
+    "table 4",
+    "hyper-parameters"
+  ],
+  "d01p0011c03": [
+    "1500",
+    "adam_beta2",
+    "memory",
+    "batch_size"
+  ],
+  "d01p0012c01": [
+    "big model",
+    "batch size 2000",
+    "single gpu",
+    "bleu",
+    "training time"
+  ],
+  "d01p0012c02": [
+    "big model",
+    "8 gpus"
+  ],
+  "d01p0013c01": [
+    "max_batch_size",
+    "big",
+    "adam",
+    "adafactor",
+    "base"
+  ],
+  "d01p0013c02": [
+    "longer_sentences"
+  ],
+  "d01p0013c03": [
+    "max_length",
+    "base",
+    "big",
+    "adam",
+    "adafactor",
+    "two.superior",
+    "one.superior",
+    "training_sentences",
+    "development_test_data"
+  ],
+  "d01p0014c01": [
+    "bleu",
+    "training_time"
+  ],
+  "d01p0014c02": [
+    "batch_size",
+    "max_length"
+  ],
+  "d01p0014c03": [
+    "batch_size",
+    "training"
+  ],
+  "d01p0015c01": [
+    "batch_size",
+    "bleu",
+    "hours",
+    "training time",
+    "bleu",
+    "figure 5",
+    "base"
+  ],
+  "d01p0015c02": [
+    "batch_size",
+    "bleu",
+    "time efficiency",
+    "examplestillscoremetrics",
+    "section4.1",
+    "260m",
+    "2260m",
+    "9",
+    "learning"
+  ],
+  "d01p0015c03": [
+    "batch_size",
+    "power-of-two values"
+  ],
+  "d01p0015c04": [
+    "learning curves",
+    "1000",
+    "1500",
+    "3000",
+    "4500",
+    "6000"
+  ],
+  "d01p0015c05": [
+    "learning curves",
+    "single gpu",
+    "base"
+  ],
+  "d01p0015c06": [
+    "hours",
+    "training steps",
+    "4500",
+    "6000",
+    "time till score",
+    "examplestillscoremetrics",
+    "definitions"
+  ],
+  "d01p0015c07": [
+    "bigger batches",
+    "computationspeed",
+    "table 2a",
+    "table 2b"
+  ],
+  "d01p0015c08": [
+    "bigger batches",
+    "slightly higher training throughput"
+  ],
+  "d01p0015c09": [
+    "batch_size=1500",
+    "learning_rate=0.20",
+    "learning_rate_warmup_steps=16000"
+  ],
+  "d01p0015c10": [
+    "subwords"
+  ],
+  "d01p0015c11": [
+    "power-of-two values",
+    "no advantage"
+  ],
+  "d01p0015c12": [
+    "all the experiments in figure 5",
+    "max_length=70"
+  ],
+  "d01p0016c01": [
+    "batch_size",
+    "bleu",
+    "hours",
+    "big",
+    "figure 6",
+    "bleu",
+    "training time"
+  ],
+  "d01p0016c02": [
+    "batch size",
+    "learning rate",
+    "convergence speed",
+    "time till score",
+    "examples till score",
+    "big model",
+    "batch size 1450",
+    "batch size 1400",
+    "gradient noise scale",
+    "sgd",
+    "adam",
+    "learning rate divided by batch size",
+    "divergence",
+    "permanent divergence",
+    "temporary divergence",
+    "batch size 1000",
+    "batch size 1300",
+    "batch size 1400",
+    "bleu curves",
+    "overfitting"
+  ],
+  "d01p0016c03": [
+    "learning rate divided by batch size",
+    "gradient noise scale",
+    "sgd",
+    "adam",
+    "permanent divergence",
+    "temporary divergence"
+  ],
+  "d01p0016c04": [
+    "batch size 6000",
+    "higher throughput"
+  ],
+  "d01p0016c05": [
+    "base model",
+    "higher batch size",
+    "diminishing returns"
+  ],
+  "d01p0016c06": [
+    "common knowledge in other nmt frameworks and deep learning in general",
+    "smaller batches",
+    "slower training examples per hour",
+    "higher test-set bleu",
+    "keskar et al.",
+    "convergence speed",
+    "time till score",
+    "examples till score"
+  ],
+  "d01p0017c01": [
+    "bleu",
+    "training time (hours)",
+    "learning rate",
+    "figure 7",
+    "czeng 1.0",
+    "warmup steps",
+    "16k",
+    "default batch size"
+  ],
+  "d01p0017c02": [
+    "learning rate",
+    "warmup steps",
+    "learning_rate_warmup_steps",
+    "linear_warmup_rsqrt_decay schedule",
+    "two.superior",
+    "noam",
+    "t−0.5",
+    "section 4.8.3"
+  ],
+  "d01p0018c01": [
+    "bleu",
+    "training time (hours)",
+    "warmup steps",
+    "warmup steps 12k",
+    "warmup steps 14k",
+    "warmup steps 16k",
+    "warmup steps 32k",
+    "warmup steps 48k"
+  ],
+  "d01p0018c02": [
+    "learning rate",
+    "1.0",
+    "warmup steps",
+    "60k",
+    "training",
+    "diverged",
+    "convergence",
+    "bleu"
+  ],
+  "d01p0018c03": [
+    "warmup steps",
+    "16k",
+    "learning rate",
+    "0.20",
+    "optimal results",
+    "default values"
+  ],
+  "d01p0019c01": [
+    "learning rate",
+    "gradient clipping",
+    "warmup steps",
+    "decreased learning rate",
+    "training",
+    "time efficiency"
+  ],
+  "d01p0019c02": [
+    "effective batch size",
+    "bleu",
+    "training steps",
+    "time till score",
+    "examplestillscore"
+  ],
+  "d01p0019c03": [
+    "time",
+    "training data",
+    "training examples",
+    "subwords",
+    "hours"
+  ],
+  "d01p0019c04": [
+    "gpus",
+    "time till score",
+    "examplestillscore"
+  ],
+  "d01p0020c01": [
+    "bleu",
+    "training time (hours)",
+    "training time (days)",
+    "8gpu",
+    "6gpu",
+    "2gpu",
+    "1gpu"
+  ],
+  "d01p0020c02": [
+    "effective batch size",
+    "learning rate",
+    "warmup steps"
+  ],
+  "d01p0021c01": [
+    "sgd",
+    "stochastic differential equation",
+    "gradient noise",
+    "batch size",
+    "training set size"
+  ],
+  "d01p0021c02": [
+    "linear scaling heuristics",
+    "√k scaling",
+    "k scaling"
+  ],
+  "d01p0021c03": [
+    "√k scaling"
+  ],
+  "d01p0021c04": [
+    "self-attentional networks",
+    "sequence-to-sequence tasks",
+    "nmt",
+    "transformer",
+    "batch normalization",
+    "learning rate",
+    "adapted training regime",
+    "ghost batch normalization"
+  ],
+  "d01p0022c01": [
+    "layer normalization",
+    "adam",
+    "inverse-square-root learning-rate decay",
+    "sgd",
+    "piecewise-constant learning-rate decay"
+  ],
+  "d01p0022c02": [
+    "learning rate",
+    "optimizer",
+    "warmup steps",
+    "gradient clipping",
+    "batch size"
+  ],
+  "d01p0022c03": [
+    "learning rate schedules",
+    "epoch",
+    "global_step",
+    "tf implementations"
+  ],
+  "d01p0022c04": [
+    "batch normalization",
+    "ghost batch normalization"
+  ],
+  "d01p0023c01": [
+    "learning rate schedules",
+    "linear_warmup_rsqrt_decay",
+    "noam",
+    "exponential decay",
+    "inverse-square-root decay",
+    "inverse-time decay",
+    "piecewise-constant decay"
+  ],
+  "d01p0023c02": [
+    "warmup steps",
+    "learning rate",
+    "transformer"
+  ],
+  "d01p0023c03": [
+    "learning_rate"
+  ],
+  "d01p0023c04": [
+    "warmup steps",
+    "learning rate",
+    "multi-gpu training",
+    "transformer"
+  ],
+  "d01p0024c01": [
+    "checkpoint",
+    "training time",
+    "bleu"
+  ],
+  "d01p0024c02": [
+    "domain adaptation"
+  ],
+  "d01p0024c03": [
+    "variance",
+    "checkpoint averaging",
+    "bleu",
+    "improvements"
+  ],
+  "d01p0024c04": [
+    "averaging",
+    "variance",
+    "bleu"
+  ],
+  "d01p0025c01": [
+    "manual scores",
+    "automatic metrics",
+    "bleu",
+    "ter",
+    "character",
+    "beer",
+    "t2t",
+    "8 gpus",
+    "days",
+    "uedin-nmt",
+    "online-b",
+    "limsi-factored",
+    "lium-fnmt",
+    "lium-nmt",
+    "cu-chimera",
+    "online-a",
+    "pjatk"
+  ],
+  "d01p0025c02": [
+    "significance",
+    "paired bootstrap testing",
+    "hours"
+  ],
+  "d01p0025c03": [
+    "checkpoint averaging"
+  ],
+  "d02p0001c01": [
+    "attention",
+    "mechanisms",
+    "transformer",
+    "bert"
+  ],
+  "d01p0025c04": [
+    "wmt17 systems",
+    "training run",
+    "best transformer model",
+    "big",
+    "8 gpus",
+    "8 days",
+    "checkpoints",
+    "automatic metrics",
+    "tables",
+    "figures",
+    "proper attribution"
+  ],
+  "d01p0025c05": [
+    "attention is all you need"
+  ],
+  "d02p0001c02": [
+    "transformer",
+    "state-of-the-art method"
+  ],
+  "d02p0001c03": [
+    "transformer"
+  ],
+  "d02p0001c04": [
+    "tensor2tensor",
+    "efficient inference"
+  ],
+  "d02p0002c01": [
+    "recurrent neural networks",
+    "long short-term memory",
+    "gated recurrent neural networks"
+  ],
+  "d02p0002c02": [
+    "sequential nature",
+    "parallelization",
+    "computational efficiency",
+    "factorization tricks",
+    "conditional computation"
+  ],
+  "d02p0002c03": [
+    "transformer"
+  ],
+  "d02p0002c04": [
+    "transformer"
+  ],
+  "d02p0002c05": [
+    "end-to-end memory networks"
+  ],
+  "d02p0003c02": [
+    "model",
+    "sub-layer",
+    "residual connections",
+    "layer normalization",
+    "multi-head attention",
+    "self-attention"
+  ],
+  "d02p0003c03": [
+    "attention"
+  ],
+  "d02p0004c01": [
+    "scaled dot-product attention",
+    "multi-head attention"
+  ],
+  "d02p0004c02": [
+    "query",
+    "keys",
+    "values",
+    "output",
+    "matrix"
+  ],
+  "d02p0004c03": [
+    "dk"
+  ],
+  "d02p0005c01": [
+    "multi-head attention",
+    "concatenation",
+    "projections",
+    "head",
+    "attention",
+    "queries",
+    "keys",
+    "values"
+  ],
+  "d02p0005c02": [
+    "encoder-decoder attention",
+    "decoder layer",
+    "encoder output",
+    "input sequence"
+  ],
+  "d02p0005c03": [
+    "self-attention layers",
+    "decoder",
+    "leftward information flow",
+    "scaled dot-product attention",
+    "softmax",
+    "illegal connections"
+  ],
+  "d02p0005c04": [
+    "position-wise feed-forward networks",
+    "fully connected feed-forward network",
+    "relu activation",
+    "linear transformations",
+    "inner-layer"
+  ],
+  "d02p0005c05": [
+    "encoder",
+    "decoder",
+    "fully connected feed-forward network",
+    "positions separately",
+    "identically"
+  ],
+  "d02p0006c01": [
+    "self-attention",
+    "recurrence",
+    "convolution",
+    "kernel size",
+    "neighborhood",
+    "complexity",
+    "sequential operations",
+    "maximum path length",
+    "operations per layer",
+    "sequence length",
+    "representation dimension",
+    "layer type"
+  ],
+  "d02p0006c02": [
+    "positional encodings",
+    "sine function",
+    "cosine function",
+    "positional encoding",
+    "dimension dmodel"
+  ],
+  "d02p0006c03": [
+    "learned positional embeddings"
+  ],
+  "d02p0006c05": [
+    "computational complexity",
+    "sequential operations"
+  ],
+  "d02p0007c01": [
+    "self-attention",
+    "sentence representations",
+    "word-piece",
+    "byte-pair representations",
+    "neighborhood",
+    "maximum path length"
+  ],
+  "d02p0007c02": [
+    "separable convolutions",
+    "self-attention",
+    "point-wise feed-forward layer"
+  ],
+  "d02p0008c01": [
+    "transformer"
+  ],
+  "d02p0008c03": [
+    "big model",
+    "transformer",
+    "wmt newstest2017"
+  ],
+  "d02p0008c04": [
+    "residual dropout"
+  ],
+  "d02p0009c01": [
+    "table 3",
+    "transformer architecture",
+    "english-to-german translation",
+    "newstest2013"
+  ],
+  "d02p0009c02": [
+    "positional embedding",
+    "sinusoids"
+  ],
+  "d02p0009c03": [
+    "bigger models",
+    "dropout",
+    "over-fitting",
+    "learned positional embeddings"
+  ],
+  "d02p0009c04": [
+    "transformer",
+    "language model",
+    "vocabulary",
+    "semi-supervised setting",
+    "training sentences",
+    "dropout",
+    "attention dropout",
+    "residual dropout",
+    "learning rates",
+    "beam size",
+    "section 22 development set"
+  ]
+}

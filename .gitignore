@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+venv/
+.env
+
+# Frontend specific ignores
+/frontend/node_modules
+/frontend/.next/
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Backend specific ignores
+KG_RAG_backend/.venv
+KG_RAG_backend/*.pyc
+KG_RAG_backend/__pycache__/
+KG_RAG_backend/.env
+KG_RAG_backend/data/vector_stores/*
+!KG_RAG_backend/data/vector_stores/.gitkeep

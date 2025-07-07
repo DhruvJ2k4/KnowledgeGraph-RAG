@@ -1,0 +1,34 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: kgrag_postgres
+    environment:
+      POSTGRES_USER: kgrag_user
+      POSTGRES_PASSWORD: kgrag_password
+      POSTGRES_DB: kgrag_db
+    ports:
+      - "5433:5432"  # Using 5433 to avoid conflicts
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - kgrag_network
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: kgrag_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5051:80"  # Using 5051 to avoid conflicts
+    depends_on:
+      - postgres
+    networks:
+      - kgrag_network
+
+networks:
+  kgrag_network:
+    driver: bridge
+
+volumes:
+  postgres_data:

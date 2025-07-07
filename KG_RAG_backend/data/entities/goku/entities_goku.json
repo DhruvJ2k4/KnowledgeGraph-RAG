@@ -1,0 +1,329 @@
+{
+  "d00p0001c01": [
+    "attention is all you need",
+    "google brain",
+    "university of toronto",
+    "google research",
+    "llion@google.com",
+    "lukaszkaiser@google.com",
+    "illia.polosukhin@gmail.com"
+  ],
+  "d00p0001c02": [
+    "aidan n. gomez",
+    "university of toronto",
+    "aidan@cs.toronto.edu"
+  ],
+  "d00p0001c03": [
+    "łukasz kaiser",
+    "google brain",
+    "illia.polosukhin@gmail.com"
+  ],
+  "d00p0001c04": [
+    "illia polosukhin"
+  ],
+  "d00p0001c05": [
+    "jakob uszkoreit",
+    "google research",
+    "noam shazeer",
+    "google brain",
+    "ashish vaswani",
+    "niki parmar",
+    "llion jones"
+  ],
+  "d00p0001c06": [
+    "tensor2tensor"
+  ],
+  "d00p0002c01": [
+    "recurrent neural network",
+    "long short-term memory",
+    "gated recurrent neural network",
+    "sequence modeling",
+    "machine translation"
+  ],
+  "d00p0002c02": [
+    "sequential nature"
+  ],
+  "d00p0002c03": [
+    "attention mechanism",
+    "sequence modeling",
+    "transduction models"
+  ],
+  "d00p0002c04": [
+    "transformer"
+  ],
+  "d00p0002c05": [
+    "convolutional neural network",
+    "convolutional neural networks",
+    "convolutional neural network (convnet)"
+  ],
+  "d00p0002c06": [
+    "constant number of operations",
+    "attention-weighted positions",
+    "multi-head attention"
+  ],
+  "d00p0002c07": [
+    "end-to-end memory networks",
+    "recurrent attention mechanism"
+  ],
+  "d00p0002c08": [
+    "transduction model",
+    "self-attention",
+    "intra-attention"
+  ],
+  "d00p0002c09": [
+    "reading comprehension",
+    "abstractive summarization",
+    "textual entailment",
+    "learning task-independent sentence representations"
+  ],
+  "d00p0002c10": [
+    "end-to-end memory networks"
+  ],
+  "d00p0002c11": [
+    "simple-language question answering",
+    "language modeling tasks"
+  ],
+  "d00p0002c12": [
+    "transformer"
+  ],
+  "d00p0002c13": [
+    "self-attention",
+    "encoder-decoder structure",
+    "auto-regressive model"
+  ],
+  "d00p0003c00": [
+    "model architecture",
+    "encoder",
+    "decoder",
+    "multi-head self-attention mechanism",
+    "position-wise fully connected feed-forward network",
+    "residual connection",
+    "layer normalization"
+  ],
+  "d00p0003c01": [
+    "transformer",
+    "encoder-decoder structure"
+  ],
+  "d00p0003c02": [
+    "residual connection",
+    "layer normalization",
+    "dmodel",
+    "encoder stack"
+  ],
+  "d00p0003c03": [
+    "multi-head attention",
+    "residual connection",
+    "layer normalization"
+  ],
+  "d00p0004c01": [
+    "scaled dot-product attention",
+    "multi-head attention"
+  ],
+  "d00p0004c02": [
+    "q",
+    "k",
+    "v"
+  ],
+  "d00p0004c03": [
+    "additive attention",
+    "feed-forward network",
+    "matrix multiplication",
+    "softmax function",
+    "scaled dot-product attention",
+    "dk"
+  ],
+  "d00p0004c04": [
+    "scaled dot-product attention",
+    "dk",
+    "multi-head attention"
+  ],
+  "d00p0004c05": [
+    "queries",
+    "keys",
+    "values",
+    "dot-products",
+    "variables",
+    "mean",
+    "variance"
+  ],
+  "d00p0005c01": [
+    "multi-head attention",
+    "concatenate",
+    "output values",
+    "position-wise fully connected feed-forward network",
+    "figure 2"
+  ],
+  "d00p0005c02": [
+    "h",
+    "dk",
+    "dv",
+    "projections",
+    "parameter matrices",
+    "wq",
+    "wk",
+    "wv",
+    "wo",
+    "reduced dimension",
+    "single-head attention",
+    "computational cost"
+  ],
+  "d00p0005c03": [
+    "self-attention",
+    "encoder-decoder attention"
+  ],
+  "d00p0005c04": [
+    "self-attention",
+    "decoder"
+  ],
+  "d00p0005c05": [
+    "position-wise feed-forward network",
+    "ffn"
+  ],
+  "d00p0005c06": [
+    "position-wise feed-forward network",
+    "dimension",
+    "dmodel",
+    "dff"
+  ],
+  "d00p0005c07": [
+    "embeddings",
+    "softmax"
+  ],
+  "d00p0005c08": [
+    "sequence transduction model"
+  ],
+  "d00p0006c02": [
+    "self-attention",
+    "positional encoding"
+  ],
+  "d00p0006c03": [
+    "positional encoding"
+  ],
+  "d00p0006c04": [
+    "learned positional embeddings"
+  ],
+  "d00p0006c05": [
+    "recurrent layers",
+    "convolutional layers"
+  ],
+  "d00p0006c06": [
+    "total computational complexity",
+    "computation that can be parallelized",
+    "path length between long-range dependencies"
+  ],
+  "d00p0006c07": [
+    "self-attention",
+    "recurrent layers",
+    "computational complexity"
+  ],
+  "d00p0007c01": [
+    "self-attention",
+    "computational performance",
+    "sentence representations",
+    "byte-pair"
+  ],
+  "d00p0007c02": [
+    "self-attention",
+    "maximum path length",
+    "neighborhood",
+    "input sequence"
+  ],
+  "d00p0007c03": [
+    "convolutional layers",
+    "complexity",
+    "separable convolutions"
+  ],
+  "d00p0007c04": [
+    "attention distributions"
+  ],
+  "d00p0007c05": [
+    "transformer",
+    "vocabulary",
+    "37000",
+    "tokens",
+    "english-french",
+    "wmt2014",
+    "dataset"
+  ],
+  "d00p0007c06": [
+    "big models",
+    "training time",
+    "1.0 seconds",
+    "step time",
+    "300,000 steps",
+    "3.5 days"
+  ],
+  "d00p0007c07": [
+    "adam optimizer",
+    "β1",
+    "β2",
+    "ϵ",
+    "learning rate",
+    "warmup_steps"
+  ],
+  "d00p0008c01": [
+    "bytenet",
+    "deep-att + posunk",
+    "gnmt + rl",
+    "convs2s",
+    "moe",
+    "deep-att + posunk ensemble",
+    "gnmt + rl ensemble",
+    "convs2s ensemble",
+    "transformer (base model)",
+    "transformer (big)",
+    "residual dropout"
+  ],
+  "d00p0008c02": [
+    "residual dropout",
+    "dropout",
+    "sub-layer",
+    "encoder stack",
+    "decoder stack",
+    "embeddings",
+    "positional encodings"
+  ],
+  "d00p0008c03": [
+    "label smoothing",
+    "epsilon"
+  ],
+  "d00p0008c05": [
+    "dropout rate"
+  ],
+  "d00p0008c06": [
+    "floating point operations"
+  ],
+  "d00p0009c01": [
+    "model variations",
+    "number of steps",
+    "d model",
+    "dff",
+    "h",
+    "d k",
+    "dv",
+    "pdrop",
+    "epsilon ls",
+    "train ppl",
+    "bleu",
+    "parameters"
+  ],
+  "d00p0009c02": [
+    "attention key and value dimensions",
+    "computational complexity",
+    "steps"
+  ],
+  "d00p0009c03": [
+    "checkpoint averaging"
+  ],
+  "d00p0009c04": [
+    "learned positional embeddings"
+  ],
+  "d00p0009c05": [
+    "english constituency parsing"
+  ],
+  "d00p0009c06": [
+    "vocabulary",
+    "penn treebank",
+    "semi-supervised setting"
+  ]
+}
