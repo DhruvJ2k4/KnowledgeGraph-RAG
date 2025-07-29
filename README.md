@@ -1,10 +1,5 @@
 # KnowledgeGraph-RAG
 
-[![CI](https://github.com/DhruvJ2k4/KnowledgeGraph-RAG/actions/workflows/ci.yml/badge.svg)](https://github.com/DhruvJ2k4/KnowledgeGraph-RAG/actions)
-[![Coverage Status](https://coveralls.io/repos/github/DhruvJ2k4/KnowledgeGraph-RAG/badge.svg?branch=main)](https://coveralls.io/github/DhruvJ2k4/KnowledgeGraph-RAG?branch=main)
-[![Version](https://img.shields.io/github/v/release/DhruvJ2k4/KnowledgeGraph-RAG)](https://github.com/DhruvJ2k4/KnowledgeGraph-RAG/releases)
-[![License](https://img.shields.io/github/license/DhruvJ2k4/KnowledgeGraph-RAG)](LICENSE)
-
 ---
 
 ## 🚀 Project Overview
@@ -47,8 +42,6 @@ Instead of treating each PDF as a "bag of words," this system:
 
 - **Frontend (TypeScript/React/Streamlit)**:  
   - Chat interface for querying the knowledge graph.
-  - Graph visualization for exploring nodes/relations.
-  - Multilingual UI support.
 - **Backend (Python/FastAPI/Neo4j/LLM)**:  
   - PDF ingestion, chunking, and entity extraction.
   - Knowledge graph creation and Cypher querying.
@@ -61,10 +54,43 @@ Instead of treating each PDF as a "bag of words," this system:
   - **PDF Parsing**: Robust chunking for scientific docs.
 
 **Environment Variables**:  
-- `TOGETHER_API_KEY` (LLM access)  
+- `TOGETHER_API_KEY` (LLM access, for Mistral Instruct 7.0 M)  
 - `OPENAI_API_KEY` (optional)  
 - `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD` (graph DB)  
-- See `.env.example` for full list.
+
+---
+
+## 🗂️ Repository Structure
+
+```
+KnowledgeGraph-RAG/
+│
+├── frontend/                # React frontend (UI, API calls, visualization)
+│   ├── src/
+│   │   ├── components/      # React components
+│   │   ├── hooks/           # Custom React hooks
+│   │   ├── lib/             # API utilities
+│   │   ├── App.tsx          # Main app entry
+│   │   └── ...              
+│   ├── public/              # Static assets
+│   ├── index.html           # HTML entry point
+│   └── ...                  
+│
+├── KG_RAG_backend/          # Python backend (FastAPI, Neo4j, LLM)
+│   ├── main.py              # FastAPI app entry
+│   ├── modules/             # Core modules (KnowledgeGraph, tools, etc.)
+│   ├── routers/             # API routers
+│   ├── data/                # Data storage (PDFs, entities, graphs)
+│   ├── db/                  # Database utilities
+│   ├── auth/                # Authentication logic
+│   ├── utils/               # Utility functions
+│   └── ...                  
+│
+├── docker-compose.yml       # Docker orchestration
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+└── ...
+```
 
 ---
 
@@ -115,61 +141,45 @@ Instead of treating each PDF as a "bag of words," this system:
   - "What methods are used in Document 3, Page 5?"
   - "Find papers connecting 'contrastive learning' and 'graph neural networks'."
 
-- **Export History:**  
-  Download chat/query history as **PDF** or **Word** with a single click.
+---
 
-- **Multilingual:**  
-  Interface and entity extraction support for English, French, German, and more.
+## 📖 API Reference
+
+### Backend Endpoints
+
+- **PDF Upload:** `POST /data-loader/upload`
+- **List PDFs:** `GET /data-loader/list`
+- **Delete PDF:** `DELETE /data-loader/delete/{fileId}`
+- **PDF Status:** `GET /data-loader/status/{fileId}`
+- **Process PDFs:** `POST /KG-status/pdf-status`
+- **Extract Entities:** `POST /KG-status/entity-extractor`
+- **Build Knowledge Graph:** `POST /KG-status/build-kg`
+- **Update Knowledge Graph:** `POST /KG-status/update-kg`
+- **Delete PDF Status:** `DELETE /KG-status/pdf-status`
+- **Get KG Status:** `GET /KG-status/status`
+
+See [frontend/src/lib/api.ts](frontend/src/lib/api.ts) for TypeScript API client usage.
+
+### Data Models
+
+- **PDFFile**:  
+  See [`PDFFile`](frontend/src/types/index.ts) for structure.
+- **KnowledgeGraphStatus**:  
+  See [`KnowledgeGraphStatus`](frontend/src/types/index.ts) for status fields.
+- **GraphNode**:  
+  See [`GraphNode`](frontend/src/types/index.ts) for node structure.
 
 ---
 
 ## 🌍 Supported Features
 
 - PDF ingestion & chunking
-- Named Entity Recognition (NER) on scientific text
+- Custom Named Entity Recognition (NER)
 - Knowledge graph creation and Cypher querying
 - Hybrid retrieval (vector + graph)
-- Streamlit and React-based web UI
-- Multilingual support
-- Downloadable PDF/Word chat history
 - User authentication & history
 - Dockerized deployment
 - LLM-augmented agents and tools
-
----
-
-## 🧑‍💻 Development Guidelines
-
-- **Branch Strategy:**  
-  - `main`: Stable releases.  
-  - `dev`: Ongoing development.  
-  - Feature branches: `feature/<name>`.
-- **Linting:**  
-  - Python: `flake8`, `black`.
-  - TypeScript: `eslint`, `prettier`.
-- **CI/CD:**  
-  - GitHub Actions for lint, test, and build.
-  - PRs require passing checks before merge.
-
----
-
-## ✅ Testing & Contributing
-
-- **Backend tests:**
-  ```bash
-  pytest tests/
-  ```
-- **Frontend tests:**
-  ```bash
-  npm test
-  ```
-- **Coverage:**  
-  Reports auto-generated in CI.
-
-**Contributing:**
-- Fork, make a feature branch, submit a PR.
-- Write clear commit messages and update tests!
-- See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
@@ -181,10 +191,17 @@ Instead of treating each PDF as a "bag of words," this system:
   ```
   Edit `docker-compose.yml` for environment/config overrides.
 
-- **Cloud:**  
-  Compatible with AWS ECS, Azure Web Apps, GCP Cloud Run (with proper env vars). Guide coming soon!
-
 ---
+
+## 💡 Environment Variables
+
+| Variable             | Description                  |
+|----------------------|-----------------------------|
+| `TOGETHER_API_KEY`   | API key for LLM inference   |
+| `NEO4J_URI`          | Neo4j database URI          |
+| `NEO4J_USERNAME`     | Neo4j username              |
+| `NEO4J_PASSWORD`     | Neo4j password              |
+
 
 ## 📜 License
 
@@ -194,67 +211,6 @@ Open-source under the [MIT License](LICENSE).
 
 ## 👤 Authors
 
-- Dhruv J2k4 ([GitHub](https://github.com/DhruvJ2k4))
-- [Contributors](https://github.com/DhruvJ2k4/KnowledgeGraph-RAG/graphs/contributors)
+- ([Dhruv Kalpesh Jadav](https://github.com/DhruvJ2k4))
 
 ---
-
-## 📝 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
----
-
-## 📚 Further Reading
-
-- [FreeCodeCamp: What is a Knowledge Graph?](https://www.freecodecamp.org/news/what-is-a-knowledge-graph/)
-- [Neo4j Official Docs](https://neo4j.com/docs/)
-- [OpenAI RAG](https://platform.openai.com/docs/guides/retrieval)
-- [LangChain Agents](https://python.langchain.com/docs/modules/agents/)
-
----
-
-## 🎓 Theoretical Explanation (FreeCodeCamp-style)
-
-### Why Knowledge Graphs?
-
-Traditional search finds *matching text*; knowledge graphs let us reason about *meaning* and *relationships*. For example, if two papers use the same method, the graph connects them—even if they use different wording.
-
-### How is RAG Improved by Knowledge Graphs?
-
-- **Vector search**: Finds similar chunks by meaning (semantic similarity).
-- **Graph search**: Finds explicit relationships (e.g., "all methods related to diffusion models in 2023 papers").
-- **Hybrid**: This project combines both—for answers that are both accurate and explainable.
-
-### What Do Agents and Tools Do?
-
-- **Agents**: Like smart AI assistants, they decide what tools to use to answer your question (entity lookup, document retrieval, etc.).
-- **Tools**: Modular functions—PDF loader, entity extractor, Cypher QA, etc.—that do the heavy lifting.
-
-### How does PDF-Graph RAG work?
-
-1. **PDF is chunked** → 2. Entities extracted per chunk → 3. Graph built (nodes: entities/docs, edges: relationships) → 4. At query time, both semantic and graph-based retrieval are used → 5. LLM synthesizes the answer with references and context.
-
----
-
-## 💡 Environment Variables
-
-| Variable             | Description                  |
-|----------------------|-----------------------------|
-| `TOGETHER_API_KEY`   | API key for LLM inference   |
-| `OPENAI_API_KEY`     | (optional)                  |
-| `NEO4J_URI`          | Neo4j database URI          |
-| `NEO4J_USERNAME`     | Neo4j username              |
-| `NEO4J_PASSWORD`     | Neo4j password              |
-| ...                  | See `.env.example`          |
-
----
-
-## 🔗 Links
-
-- [Issues](https://github.com/DhruvJ2k4/KnowledgeGraph-RAG/issues)
-- [Discussions](https://github.com/DhruvJ2k4/KnowledgeGraph-RAG/discussions)
-
----
-
-*Built with ❤️ by Dhruv and the open-source community.*
