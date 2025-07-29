@@ -52,7 +52,7 @@ Instead of treating each PDF as a "bag of words," this system:
   - **PDF Parsing**: Robust chunking for scientific docs.
 
 **Environment Variables**:  
-- `TOGETHER_API_KEY` (LLM access, for Mistral Instruct 7.0 M)  
+- `TOGETHER_API_KEY` (LLM access, for mistralai/Mistral-7B-Instruct-v0.2)  
 - `OPENAI_API_KEY` (optional)  
 - `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD` (graph DB)  
 
@@ -177,14 +177,56 @@ See [frontend/src/lib/api.ts](frontend/src/lib/api.ts) for TypeScript API client
 - LLM-augmented agents and tools
 
 ---
+## 🐳 Docker Compose Setup
 
-## 🚀 Deployment
+This project provides a ready-to-use `docker-compose.yml` for local development and testing with PostgreSQL and pgAdmin.  
+**We recommend including this file in your repository for easy onboarding and reproducibility.**
 
-- **Docker (recommended for production):**
-  ```bash
-  docker-compose up --build
-  ```
-  Edit `docker-compose.yml` for environment/config overrides.
+### Services
+
+- **Postgres**  
+  - Image: `postgres:latest`
+  - User: `kgrag_user`
+  - Password: `kgrag_password`
+  - Database: `kgrag_db`
+  - Port: `5433` (host) → `5432` (container)
+  - Persistent volume: `postgres_data`
+- **pgAdmin**  
+  - Image: `dpage/pgadmin4:latest`
+  - Default email: `admin@admin.com`
+  - Default password: `admin`
+  - Port: `5051` (host) → `80` (container)
+  - Depends on Postgres
+
+### Usage
+
+1. **Start the stack:**
+   ```bash
+   docker-compose up -d
+   ```
+
+2. **Access pgAdmin:**  
+   Open [http://localhost:5051](http://localhost:5051)  
+   Login with the default credentials above.
+
+3. **Connect to Postgres:**  
+   - Host: `postgres`
+   - Port: `5432`
+   - User: `kgrag_user`
+   - Password: `kgrag_password`
+   - Database: `kgrag_db`
+
+4. **Stop the stack:**
+   ```bash
+   docker-compose down
+   ```
+
+### Networks & Volumes
+
+- **Network:** `kgrag_network` (isolated bridge)
+- **Volume:** `postgres_data` (persists database data)
+
+---
 
 ## 💡 Environment Variables
 
