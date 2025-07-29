@@ -121,7 +121,7 @@ KnowledgeGraph-RAG/
 
 ---
 
-## ⚡ Usage
+## Usage
 
 - **Upload PDFs:**  
   Use the web interface or API `/upload` endpoint.
@@ -166,7 +166,7 @@ See [frontend/src/lib/api.ts](frontend/src/lib/api.ts) for TypeScript API client
 
 ---
 
-## 🌍 Supported Features
+## Supported Features
 
 - PDF ingestion & chunking
 - Custom Named Entity Recognition (NER)
@@ -186,8 +186,6 @@ See [frontend/src/lib/api.ts](frontend/src/lib/api.ts) for TypeScript API client
   ```
   Edit `docker-compose.yml` for environment/config overrides.
 
----
-
 ## 💡 Environment Variables
 
 | Variable             | Description                  |
@@ -197,13 +195,9 @@ See [frontend/src/lib/api.ts](frontend/src/lib/api.ts) for TypeScript API client
 | `NEO4J_USERNAME`     | Neo4j username              |
 | `NEO4J_PASSWORD`     | Neo4j password              |
 
----
-
 ## 📜 License
 
 Open-source under the [MIT License](LICENSE).
-
----
 
 ## 👤 Authors
 
