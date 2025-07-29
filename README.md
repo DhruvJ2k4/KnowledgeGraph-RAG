@@ -1,7 +1,5 @@
 # KnowledgeGraph-RAG
 
----
-
 ## 🚀 Project Overview
 
 **KnowledgeGraph-RAG** is an advanced, open-source system for Retrieval-Augmented Generation (RAG) using knowledge graphs and Large Language Models (LLMs). By extracting structured knowledge from PDFs and scientific papers, it enables explainable, multilingual, and context-aware question-answering for research and enterprise use.
@@ -125,11 +123,6 @@ KnowledgeGraph-RAG/
 
 ## ⚡ Usage
 
-- **Launch with Streamlit (for interactive UI):**
-  ```bash
-  streamlit run frontend/app.py
-  ```
-
 - **Upload PDFs:**  
   Use the web interface or API `/upload` endpoint.
 
@@ -159,6 +152,8 @@ KnowledgeGraph-RAG/
 - **Get KG Status:** `GET /KG-status/status`
 
 See [frontend/src/lib/api.ts](frontend/src/lib/api.ts) for TypeScript API client usage.
+
+---
 
 ### Data Models
 
@@ -202,6 +197,7 @@ See [frontend/src/lib/api.ts](frontend/src/lib/api.ts) for TypeScript API client
 | `NEO4J_USERNAME`     | Neo4j username              |
 | `NEO4J_PASSWORD`     | Neo4j password              |
 
+---
 
 ## 📜 License
 
@@ -211,6 +207,4 @@ Open-source under the [MIT License](LICENSE).
 
 ## 👤 Authors
 
-- ([Dhruv Kalpesh Jadav](https://github.com/DhruvJ2k4))
-
----
+- [Dhruv Kalpesh Jadav](https://github.com/DhruvJ2k4)
